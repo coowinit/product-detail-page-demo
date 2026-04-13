@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Page Demo</title>
+  <link rel="stylesheet" href="./lite/css/bootstrap.min.css" />
+  <style>
+    body { background:#f5f4f1; font-family:Inter,Arial,sans-serif; color:#2f3440; }
+    .wrap { max-width: 960px; margin: 48px auto; padding: 0 20px; }
+    .card { background:#fff; border:1px solid #eceff4; border-radius:24px; padding:28px; box-shadow:0 12px 32px rgba(31,41,55,.06); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; margin-top:24px; }
+    .option { border:1px solid #e5e8ee; border-radius:18px; padding:22px; background:#fafafa; }
+    .option h2 { font-size:1.35rem; margin:0 0 12px; }
+    .option p { color:#6e7380; min-height:72px; }
+    .btnx { display:inline-block; padding:12px 18px; border-radius:10px; background:#202734; color:#fff; text-decoration:none; font-weight:700; }
+    code { background:#f3f4f6; padding:2px 6px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Product Page Demo</h1>
+      <p>This repository includes two front-end versions of the same product page.</p>
+      <div class="grid">
+        <section class="option">
+          <h2>Lite</h2>
+          <p>Plain JavaScript, no module loader, and easy to edit. Best for local previews and quick structure changes.</p>
+          <a class="btnx" href="./lite/index.html">Open Lite</a>
+        </section>
+        <section class="option">
+          <h2>Pro</h2>
+          <p>Uses local Swiper and PhotoSwipe assets for a richer gallery experience. Best for staged or production-style previews.</p>
+          <a class="btnx" href="./pro/index.html">Open Pro</a>
+        </section>
+      </div>
+      <hr style="margin:28px 0; border:none; border-top:1px solid #eceff4;">
+      <p>See <code>README.md</code> for setup, customization, and file structure.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Generic Product Page</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/product-details.css" />
+</head>
+<body>
+  <main class="product-shell">
+    <div class="container-xxl">
+      <section class="product-card">
+        <div class="row g-0 align-items-start">
+          <div class="col-lg-6">
+            <div class="product-gallery">
+              <div class="badge-chip" id="productBadge">Lite Demo</div>
+
+              <div class="gallery-stage" aria-label="Main image area">
+                <button class="gallery-nav gallery-prev" type="button" id="galleryPrevBtn" aria-label="Previous image">
+                  <svg class="gallery-nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M14.5 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+
+                <button class="gallery-main-link" id="galleryMainLink" type="button" aria-label="Open image preview">
+                  <img id="galleryMainImage" src="" alt="Main product image" />
+                </button>
+
+                <button class="gallery-nav gallery-next" type="button" id="galleryNextBtn" aria-label="Next image">
+                  <svg class="gallery-nav-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M9.5 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="zoom-chip" type="button" id="openLightboxBtn">Zoom</button>
+              </div>
+
+              <div class="gallery-thumbs" id="galleryThumbs" aria-label="Thumbnail list"></div>
+              <p class="gallery-hint" id="galleryHint"></p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="product-summary">
+              <nav class="breadcrumb-nav" id="breadcrumbNav" aria-label="Breadcrumb"></nav>
+
+              <h1 class="product-title" id="productTitle">Product title</h1>
+              <div class="product-price" id="productPrice"></div>
+
+              <button class="utility-btn" type="button" id="utilityButton">Deck Calculator</button>
+
+              <section class="attribute-block" aria-labelledby="colorHeading" id="colorBlock">
+                <div class="section-label" id="colorHeading">
+                  <span>Color:</span>
+                  <strong id="currentColorLabel">—</strong>
+                </div>
+                <div class="swatch-list" id="colorSwatches"></div>
+              </section>
+
+              <section class="attribute-block" id="sizeBlock">
+                <label class="section-label" for="sizeSelect">
+                  <span>Size</span>
+                </label>
+                <select class="form-select attribute-select" id="sizeSelect"></select>
+              </section>
+
+              <section class="attribute-block" aria-labelledby="edgeHeading" id="edgeBlock">
+                <div class="section-label" id="edgeHeading">
+                  <span>Edge:</span>
+                  <strong id="currentEdgeLabel">—</strong>
+                </div>
+                <div class="button-list" id="edgeButtons"></div>
+              </section>
+
+              <div class="stock-state" id="stockState"></div>
+
+              <div class="meta-grid">
+                <div class="meta-row">
+                  <div class="meta-name">SKU</div>
+                  <div id="skuValue">—</div>
+                </div>
+                <div class="meta-row">
+                  <div class="meta-name">Variation</div>
+                  <div id="variationIdValue">—</div>
+                </div>
+                <div class="meta-row">
+                  <div class="meta-name">Pattern</div>
+                  <div id="patternValue">—</div>
+                </div>
+              </div>
+
+              <div class="selection-summary" id="selectionSummary">Selection: —</div>
+
+              <div class="cart-bar">
+                <input class="qty-input" id="qtyInput" type="number" min="1" value="1" inputmode="numeric" />
+                <button class="add-cart-btn" id="addToCartBtn" type="button">Add to Cart</button>
+              </div>
+
+              <p class="helper-note" id="helperNote"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="simple-lightbox" id="simpleLightbox" hidden>
+    <button class="lightbox-close" type="button" id="lightboxCloseBtn" aria-label="Close">×</button>
+    <button class="lightbox-nav lightbox-prev" type="button" id="lightboxPrevBtn" aria-label="Previous image">‹</button>
+
+    <div class="lightbox-stage">
+      <img id="lightboxImage" src="" alt="Preview image" />
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <button class="lightbox-nav lightbox-next" type="button" id="lightboxNextBtn" aria-label="Next image">›</button>
+  </div>
+
+  <script src="./js/product-data.js"></script>
+  <script src="./js/product-details.js"></script>
+</body>
+</html>

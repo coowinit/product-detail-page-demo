@@ -1,0 +1,14 @@
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+          <rect width="1200" height="1200" fill="#f6f5f1" />
+          <rect width="1200" height="600" fill="#f0f2f4" />
+          <circle cx="936" cy="216" r="108" fill="rgba(255,255,255,0.35)" />
+          <path d="M0 528 C 192 360, 408 552, 648 420 S 1020 468, 1200 372 L 1200 600 L 0 600 Z" fill="#d4d6d0" opacity="0.65" />
+          <rect x="0" y="600" width="1200" height="600" fill="#7f7a72" />
+          <line x1="0" y1="696" x2="1200" y2="696" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="738" x2="1200" y2="738" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="780" x2="1200" y2="780" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="822" x2="1200" y2="822" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="864" x2="1200" y2="864" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="906" x2="1200" y2="906" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="948" x2="1200" y2="948" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="990" x2="1200" y2="990" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="1032" x2="1200" y2="1032" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="1074" x2="1200" y2="1074" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="1116" x2="1200" y2="1116" stroke="rgba(0,0,0,0.18)" stroke-width="2"/><line x1="0" y1="1158" x2="1200" y2="1158" stroke="rgba(0,0,0,0.18)" stroke-width="2"/>
+          <rect x="72" y="744" width="216" height="108" rx="12" fill="rgba(255,255,255,0.4)" />
+          <rect x="360" y="696" width="216" height="96" rx="12" fill="rgba(255,255,255,0.45)" />
+          <rect x="672" y="732" width="192" height="96" rx="12" fill="rgba(255,255,255,0.42)" />
+          <text x="60" y="108" font-size="36" font-family="Arial, sans-serif" fill="#2f3440" font-weight="700">Rocky Harbor - Board Texture</text>
+        </svg>
+      
